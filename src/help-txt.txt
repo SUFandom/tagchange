@@ -1,0 +1,34 @@
+This is help Text
+Although Very Limited, this should help you to
+use this better, although there's an
+HTML documentation is available at 
+html-help
+
+Menu:
+There are 3 Options, the other 2 are just basic stuff
+Change and Restore
+
+Change -
+    is a Feature to change '~$' to 
+    '<insertyourinput>'
+    a Dialog Input box will meet you and
+    require you to input anything.
+    if you see \w, it's just a function
+    to check directory, (Check the
+    GNU Bash Help Wizard Page)
+    you can just 
+    remove it if unnecessary, but
+    i recommend you to leave that 
+    if you want to know where is
+    your current directory location
+
+Restore -
+    Restoring the Bash Script to normal
+    
+Fix -
+    Although, same as Restore,
+    this one just fix if you have missing
+    bashrc
+    
+
+End of help

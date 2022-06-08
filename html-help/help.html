@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Help Page for the TagChange</title>
+</head>
+
+<body>
+ <h2>TagChange Help Repository, In HTML!</h2>
+  <p>Hello, this is the Help Page of the Repository, that is written on HTML, Much more detailed info on this form than the TXT version.</p>
+  <p>Version 0.1  |   <button onclick="allAbout()">Info about the Developer</button> | <button onclick="window.location.href = 'issues.html' ; ">Send an Email</button> </p>
+  <script>
+    function allAbout() {
+      alert("Version 0.1 \nBy SUFandom on Github and Gitlab \nFollow on Youtube: https://bit.ly/BlzYT_SUF")
+    }
+  </script>
+<h2>Introduction</h2>
+<p>Hello, this is the Help Text of the Script</p>
+<p>Here are the guide that should help you get use to this Page</p>
+<p>ESC can also Force Exit the script, not recommended when the script is processing</p>
+<h3>1. Notice</h3>
+<img src="notice.jpg" alt="Some Warning before you enter" width="260" height="560">
+<p></p>
+<p>This is a warning to the user that its modifying the $PREFIX/etc.. You must have a good knowledge of how Bash shell script works and how <button onclick="psOne()">PS1</button> works too by visiting the GNU Bash Website Wiki </p>
+<button onclick="notice()">Other info why it's put up.</button>
+<script>
+  function notice() {
+    alert("This warning is prove to notify users that its going to modify the $PREFIX/etc Directory. \n \nThe user should be careful also when there is a similar script that does modifying some underlying work of the system")
+  }
+  function psOne() {
+    alert("PS1 is the primary prompt which is displayed before each command, thus it is the one most people customize")
+  }
+  function change() {
+    alert("You can use tput to have colored text, supports 255 Colors. Depending on what terminal you use. \n\nInstall it by apt install ncurses-utils and use $(tput setaf 1) for foreground color, or $(tput setab 1) if background change. Read man tput for more.")
+  }
+</script>
+<h3>2.Menu</h3>
+<img src="menu.jpg" alt="The Menu" width="260" height="560">
+<p>These are the Menus, these are the options..</p>
+<b>Change</b>
+<p></p>
+<img src="input.jpg" width="260" height="560">
+<p>It's Responsible to change your name in the Command Header. You can actually apply <a href="https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux" target="_blank">Color Pallete to it.</a></p>
+<p>But be Careful! Doing wrong things on this may damage the Bash.</p>
+<p> \w is just a header of Directory, the one who is responsible for the Location of your current directory you're in.</p>
+<button onclick="change()">Better Color Tricks</button>
+<p></p>
+<b>Restore</b>
+<p></p>
+<img src="repair.jpg" alt="Restore" width="260" height="560">
+<p></p>
+<p>This function, Restore your Bashrc to default by using the file from your last configured bash.bashrc</p>
+<p></p>
+<b>Repair</b>
+<p></p>
+<img src="repair1.jpg" alt="Repair" width="260" height="560">
+<p></p>
+<p>Repair fixes your Bash.bashrc by importing the bash config file  that is already in this script, may have some structural compat issues, because of differences of /data structure.. </p>
+<p></p>
+<b>Help and About</b>
+<p></p>
+<p>Basically, they're just Help page and About.</p>
+<p></p>
+<h2>Frequently Asked Questions</h2>
+<p></p>
+<b>Is it going to damage my Termux after using?</b>
+<p>Basically no. But if you dont have any knowledge of Bash, then there may be some issues arising.</p>
+<b>Do this script has a Spyware?</b>
+<p>No, why would you ask that?</p>
+<b>Can i use Tput as Color System? How about this too? ([0:32m\])</b>
+<p> You can use sh coloring system too actually, and in fact, tput runs on that..</p>
+<b>How can i use tput colors ?</b>
+<p>Do this</p>
+<img src="input1.jpg" alt="Sample" width="260" height="560">
+<p></p>
+<b>$(tput setaf 3)</b>
+<p>Is coloring Heading, doing this "$()" cases the command and tell to run and color this text, suggest to use $(tput sgr0) to reset</p>
+<b>\w</b>
+<p> Its responsible to tell you the storage location at its side, See GNU Bash for more info.</p>
+<p></p>
+<b>User</b>
+<p>You can type your desired name now. we suggest to do : $(tput sgr0) to reset colors at the end so if you type things, it wouldn't be the same as the header.</p>
+
+<p>End of the Help Page, please go to GitHub or Gitlab if there's any issues. or contact via email.</p>
+</body>
+
+</html>
